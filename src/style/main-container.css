@@ -1,0 +1,181 @@
+.main-container {
+    /* position: relative;*/
+    width: 100%;
+    /* height: 80vh; */
+    height: calc(100vh - 208px);
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-image: url(../assets/clouds.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index: -15;
+  }
+  
+  .pageHeight {
+    height: auto;
+  }
+  .emptyHeight {
+    height: calc(100vh - 420px);
+  }
+  .settings-page {
+    position: absolute;
+    top: 70px;
+    right: 100px;
+    background-color: #fff;
+    border-radius: 20px;
+    width: 250px;
+    height: 200px;
+    z-index: 12;
+    color: #fff;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.6);
+  
+    backdrop-filter: blur(10px);
+    transition: all 0.6s ease-in-out;
+  }
+  .settings-page-up {
+    top: -200px !important;
+    /* display: none !important; */
+  }
+  .btn-prev {
+    width: 150px;
+    border-radius: 15px !important;
+    color: var(--default-color) !important;
+    /* font-size: 1.2rem !important; */
+    font-weight: 600 !important;
+    letter-spacing: 0.2rem;
+  }
+  .savedCity {
+    border-radius: 18px !important;
+    color: var(--default-color) !important;
+  }
+  .form-container,
+  .glass-panel {
+    color: var(--default-color);
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+    border-radius: 25px;
+    padding: 0.5rem;
+    backdrop-filter: blur(10px);
+  }
+  .city-text {
+    display: inline-block;
+    width: 100%;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--blue-50);
+    background-color: transparent !important;
+  }
+  .city-select {
+    border: 1px solid rgba(255, 255, 255, 0.8) !important;
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: var(--blue-50) !important;
+    font-size: 1.2rem !important;
+    border-radius: 25px !important;
+    background-color: transparent !important;
+  }
+  
+  .city-text:focus,
+  .city-select:focus {
+    outline: none !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 0 10px #eb6804 !important;
+  }
+  
+  .select-items {
+    background: rgba(255, 255, 255, 0.1) !important;
+    background-color: transparent !important;
+    color: var(--footer-up-color);
+  }
+  
+  ::placeholder {
+    color: var(--place-holder-color);
+  }
+  .error {
+    color: var(--red-300);
+  }
+  /*card start*/
+  
+  .weth-description {
+    font-size: 2rem;
+  }
+  .weth-icon {
+    width: 80px;
+    height: 80px;
+  }
+  .icon-weather-48 {
+    width: 48px;
+    height: 48px;
+  }
+  .border-right {
+    border-right: 1px solid rgba(255, 255, 255, 0.8) !important;
+  }
+  .border-left {
+    border-left: 1px solid rgba(255, 255, 255, 0.8) !important;
+  }
+  .city-title {
+    margin-bottom: 0 !important;
+    color: var(--orange-500);
+    font-weight: 700 !important;
+  }
+  .weth-desc-paragraph {
+    margin-bottom: 0 !important;
+    font-weight: 700;
+  }
+  .corrent-temp {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  /*Card End*/
+  
+  /*DayCard Start*/
+  .card-size {
+    width: 190px;
+    height: 240px;
+  }
+  .item-day {
+    border: 1px solid rgba(255, 255, 255, 0.8) !important;
+    border-radius: 10px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .item-day:hover {
+    -webkit-box-shadow: 0 0 4px 6px black;
+    -moz-box-shadow: 0 0 4px 6px black;
+    box-shadow: 0 0 4px 6px black;
+    border-radius: 10px !important;
+  }
+  .active {
+    -webkit-box-shadow: 0 0 4px 6px black;
+    -moz-box-shadow: 0 0 4px 6px black;
+    box-shadow: 0 0 4px 6px black;
+    border-radius: 10px !important;
+    height: 240px;
+  }
+  .text-day {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0 !important;
+  }
+  
+  .text-block,
+  .geo-list {
+    margin-bottom: 0 !important;
+  }
+  .icon-weather {
+    width: 60px;
+    height: 60px;
+  }
+  /*Error Page*/
+  .error-text {
+    font-size: 1.6rem;
+  }

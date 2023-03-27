@@ -1,0 +1,37 @@
+:root {
+    --header-color: rgba(255, 255, 255, 0.3);
+    --footer-down-color: #212529;
+    --footer-up-color: #2a2e32;
+    --icon-color: #a3de83;
+    --icon-color-blue: #0d6efd;
+    --icon-color-hover: #0a58ca;
+    --header-lr-border: rgba(255, 255, 255, 0.3);
+    --header-hover-color: #474b50;
+    --default-color: #fff;
+  
+    /* boostrap colors */
+    --amber-800: #ff8f00;
+    --deep-purple-50: #ede7f6;
+    --deep-purple-300: #9575cd;
+    --blue-50: #e3f2fd;
+    --indigo-500: #3f51b5;
+    --orange-500: #fd7e14;
+    --orange-400: #fd9843;
+    --cyan-500: #0dcaf0;
+    --red-500: #b02a37;
+    --red-300: #e35d6a;
+    --place-holder-color: #f8f8f8;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box !important;
+  }
+  html {
+    /* font-size: 10px; */
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    /* font-size: 1.6rem; */
+  }
