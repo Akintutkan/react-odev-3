@@ -1,5 +1,6 @@
 import React from "react";
 // import "../../style/header.css";
+import "./header.css"
 import SettingsBtn from "../IconComponent/SettingsBtn";
 import locationGif from "../../assets/icons/location.gif";
 import useGeoLocation from "../../hook/useGeoLocation";
