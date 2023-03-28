@@ -87,6 +87,7 @@ export const WeatherProvider = ({ children }) => {
 
   useEffect(() => {
     city && getForeCastWeatherDataByCity(city);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [city, language, tempType]);
 
   const values = {
